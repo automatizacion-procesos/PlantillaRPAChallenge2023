@@ -18,9 +18,9 @@ XPATHS_CAMPOS = (
 # Xpath para continuar con el siguiente formulario
 BOTON_SUBMIT = '//input[@value="Submit"]'
 # Xpath del botón de descarga del archivo
-BOTON_DESCARGA = '//a[@href="./assets/downloadFiles/challenge.xlsx"]'
+BOTON_DOWNLOAD = '//a[@href="./assets/downloadFiles/challenge.xlsx"]'
 # Xpath del botón que inicia el reto
-BOTON_INICIO = '//button[contains(., Start)]'
+BOTON_START = '//button[text()="Start"]'
 # Xpath del mensaje final del reto
 XPATH_MENSAJE = '//div[@class="message2"]'
 
